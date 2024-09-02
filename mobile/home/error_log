@@ -1,0 +1,201 @@
+[15-May-2023 22:48:23 Africa/Lagos] PHP Warning:  Invalid argument supplied for foreach() in /home/vtunaija/apitelecomplug/mobile/home/crypto.php on line 57
+[15-May-2023 22:54:41 Africa/Lagos] PHP Warning:  Invalid argument supplied for foreach() in /home/vtunaija/apitelecomplug/mobile/home/crypto.php on line 57
+[15-May-2023 23:13:58 Africa/Lagos] PHP Warning:  Invalid argument supplied for foreach() in /home/vtunaija/apitelecomplug/mobile/home/crypto.php on line 57
+[20-May-2023 22:29:06 Africa/Lagos] PHP Warning:  Invalid argument supplied for foreach() in /home/vtunaija/apitelecomplug/mobile/home/airtime2cash.php on line 56
+[20-May-2023 23:07:01 Africa/Lagos] PHP Parse error:  syntax error, unexpected '.' in /home/vtunaija/apitelecomplug/mobile/home/airtime2cash.php on line 93
+[20-May-2023 23:08:57 Africa/Lagos] PHP Parse error:  syntax error, unexpected '.' in /home/vtunaija/apitelecomplug/mobile/home/airtime2cash.php on line 93
+[23-May-2023 18:25:05 Africa/Lagos] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/vtunaija/sesomtopup.com.ng/core/Models/Model.php:29
+Stack trace:
+#0 /home/vtunaija/sesomtopup.com.ng/core/Models/Model.php(29): PDO->__construct('mysql:host=loca...', 'vtunaija_sesomn...', 'vtunaija_sesomn...')
+#1 /home/vtunaija/sesomtopup.com.ng/core/Models/Model.php(23): Model->connectDb()
+#2 /home/vtunaija/sesomtopup.com.ng/core/Controllers/Subscriber.php(44): Model->__construct()
+#3 /home/vtunaija/sesomtopup.com.ng/mobile/home/includes/route.php(87): Subscriber->__construct()
+#4 /home/vtunaija/sesomtopup.com.ng/mobile/home/index.php(1): require_once('/home/vtunaija/...')
+#5 {main}
+  thrown in /home/vtunaija/sesomtopup.com.ng/core/Models/Model.php on line 29
+[12-Dec-2023 17:25:43 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:25:43 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:25:43 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:26:12 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:12 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:13 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:26:13 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:13 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:13 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:26:14 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:14 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:14 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:26:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:15 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:15 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:26:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:15 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:15 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:26:16 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:16 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:16 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:26:46 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:46 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:46 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:26:46 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:46 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:46 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:26:47 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:47 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:47 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:26:47 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:47 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:26:48 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:26:48 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:48 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:26:48 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:26:49 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:49 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:26:49 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:27:34 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:34 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:35 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:27:35 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:35 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:35 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:27:36 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:36 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:36 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:27:36 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:36 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:37 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:27:37 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:37 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:37 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:27:38 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:38 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:38 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:27:38 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:38 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:38 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:27:39 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:39 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:39 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:27:39 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:39 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:40 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:27:47 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:47 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:27:47 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:27:48 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:48 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:27:48 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:27:48 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:48 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:27:49 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:28:52 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:28:52 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:28:52 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:28:53 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:28:53 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:28:53 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:28:53 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:28:53 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:28:53 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:29:06 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:29:06 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:29:06 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:29:06 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:29:06 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:29:06 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:29:07 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:29:07 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:29:07 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 17:38:58 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:38:58 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 17:38:58 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 17:38:59 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:38:59 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 17:38:59 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 17:38:59 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:38:59 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 17:38:59 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 19:56:59 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 19:56:59 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 19:56:59 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 19:56:59 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 19:56:59 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 19:57:00 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 19:57:00 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 19:57:00 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 19:57:00 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 19:57:13 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 19:57:13 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 19:57:13 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 19:57:13 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 19:57:13 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 19:57:13 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 19:57:14 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 19:57:14 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 19:57:14 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 23:01:47 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:01:47 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:01:47 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 23:01:47 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:01:47 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:01:48 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 23:01:48 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:01:48 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:01:48 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 23:09:35 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:09:35 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:09:36 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 23:09:36 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:09:36 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:09:36 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 23:09:37 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:09:37 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:09:37 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 23:10:48 Africa/Lagos] PHP Notice:  Undefined variable: accessToken in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 341
+[12-Dec-2023 23:10:49 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 23:10:49 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:10:49 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:10:49 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 23:10:50 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:10:50 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:10:50 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 23:11:25 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:11:25 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:11:25 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 23:11:25 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:11:25 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:11:26 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 23:11:26 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:11:26 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:11:26 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 23:34:10 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:34:10 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:34:10 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 23:34:11 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:34:11 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:34:11 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 23:34:11 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:34:11 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:34:12 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 23:37:40 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:37:40 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:37:40 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 23:37:40 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:37:40 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:37:41 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 23:37:41 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:37:41 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:37:41 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[12-Dec-2023 23:39:30 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:39:30 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 312
+[12-Dec-2023 23:39:30 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 351
+[12-Dec-2023 23:39:31 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:39:31 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 396
+[12-Dec-2023 23:39:31 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 435
+[12-Dec-2023 23:39:31 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$responseBody in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:39:31 Africa/Lagos] PHP Notice:  Trying to get property 'accessToken' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 495
+[12-Dec-2023 23:39:32 Africa/Lagos] PHP Notice:  Undefined index: requestSuccessful in /home/civilvil/business.aduikirun.com.ng/core/Models/Account.php on line 534
+[13-Dec-2023 07:52:42 Africa/Lagos] PHP Notice:  Trying to get property 'status' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Controllers/Subscriber.php on line 180
+[13-Dec-2023 07:52:42 Africa/Lagos] PHP Notice:  Trying to get property 'msg' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Controllers/Subscriber.php on line 185
+[13-Dec-2023 08:07:23 Africa/Lagos] PHP Notice:  Trying to get property 'status' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Controllers/Subscriber.php on line 180
+[13-Dec-2023 08:07:23 Africa/Lagos] PHP Notice:  Trying to get property 'msg' of non-object in /home/civilvil/business.aduikirun.com.ng/core/Controllers/Subscriber.php on line 185
