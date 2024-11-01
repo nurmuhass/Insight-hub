@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <marquee>
                     <img src="../../assets/images/style/1.png?v=1" width="300" class="border shadow mr-5" /> 
                     <img src="../../assets/images/style/2.png?v=1" width="300" class="border shadow mr-5" /> 
@@ -34,7 +34,7 @@
                     <img src="../../assets/images/style/4.png?v=1" width="300" class="border shadow mr-5" /> 
                     <img src="../../assets/images/style/5.png?v=1" width="300" class="border shadow mr-5" />
                 </marquee> 
-            </div>
+            </div> -->
 
             <div class="form-group">
                 <label for="success" class="control-label">Login Style & Design</label>
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <marquee direction="right">
                     <img src="../../assets/images/homepages/1.png?v=1" width="300" class="border shadow mr-5" /> 
                     <img src="../../assets/images/homepages/2.png?v=1" width="300" class="border shadow mr-5" /> 
@@ -58,7 +58,7 @@
                     <img src="../../assets/images/homepages/4.png?v=1" width="300" class="border shadow mr-5" /> 
                     <img src="../../assets/images/homepages/5.png?v=1" width="300" class="border shadow mr-5" />
                 </marquee> 
-            </div>
+            </div> -->
 
             <div class="form-group">
                 <label for="success" class="control-label">Home Page Style & Design</label>

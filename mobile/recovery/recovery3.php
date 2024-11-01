@@ -16,15 +16,15 @@
 <style type="text/css">#verCon{display: none;} #keyCon{display: none;}</style>
 <style>
      body{background-color: <?php echo $color; ?>;}
-    .card{background: rgba(0,0,0,0.5); margin:20px;}
+     .card{background: #56aeff; margin:20px;border-radius:0.5rem !important;}
     
     .form-control{
         background-color: #fafafa !important; 
-        border-radius: 5rem !important;
+        border-radius: 1rem !important;
         padding-left: 50px !important;
     }
 
-    .form-control:focus{
+    .form-control:focus{ 
         background-color: #ffffff !important; 
     }
 

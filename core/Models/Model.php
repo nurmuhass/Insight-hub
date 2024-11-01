@@ -12,10 +12,10 @@
 		// public static $username="root"; // Database Username
 		// public static $password=""; //Database Password
 
-        public static $host="sql213.infinityfree.com";
-		public static $dbName="if0_37229893_easyload"; //Database Name
-		public static $username="if0_37229893"; // Database Username
-		public static $password="RinEGP5AyfPh5A"; //Database Password
+        public static $host="localhost";
+		public static $dbName="insighthub"; //Database Name
+		public static $username="root"; // Database Username
+		public static $password=""; //Database Password
 
         public static $dbh;
         

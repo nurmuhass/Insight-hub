@@ -1,5 +1,14 @@
+<style>
+ span{
+  color:#fff
+ } 
+ .main-sidebar .sidebar-menu i {
+    color: #fff !important;
+}
+</style>
+
 <!-- Left side column. contains the logo and sidebar -->
-<aside class="main-sidebar">
+<aside class="main-sidebar" style="background: #2899ff !important;">
     <!-- sidebar-->
     <section class="sidebar">
 		
@@ -7,7 +16,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li>
           <a href="<?php echo $urlAddon; ?>dashboard">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-dashboard" style="color: #fff !important;"></i> <span >Dashboard</span>
 			      <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>

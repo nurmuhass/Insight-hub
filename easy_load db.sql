@@ -665,7 +665,7 @@ CREATE TABLE `sitesettings` (
 --
 
 INSERT INTO `sitesettings` (`sId`, `sitename`, `siteurl`, `agentupgrade`, `vendorupgrade`, `apidocumentation`, `phone`, `email`, `whatsapp`, `whatsappgroup`, `facebook`, `twitter`, `instagram`, `telegram`, `referalupgradebonus`, `referalairtimebonus`, `referaldatabonus`, `referalwalletbonus`, `referalcablebonus`, `referalexambonus`, `referalmeterbonus`, `wallettowalletcharges`, `sitecolor`, `logindesign`, `homedesign`, `notificationStatus`, `accountname`, `accountno`, `bankname`, `electricitycharges`, `airtimemin`, `airtimemax`) VALUES
-(1, 'Easy Load', 'https://EASYLOAD.com.ng', '1000', '4000', 'https://business.aduikirun.com.ng/mobile/home/pricing', '07046306346', 'MTCEEY@gmail.com', '09076191943', '', '', '', '', '', 0, 0.2, 1, 0, 15, 20, 10, 100000000, '#0000ff', '3', '5', 'Off', 'MUHAMMAD NUR HASSAN', '0235036415', 'GT BANK', '0', '50', '5000');
+(1, 'Easy Load', 'https://Insight Hub.com.ng', '1000', '4000', 'https://business.aduikirun.com.ng/mobile/home/pricing', '07046306346', 'MTCEEY@gmail.com', '09076191943', '', '', '', '', '', 0, 0.2, 1, 0, 15, 20, 10, 100000000, '#0000ff', '3', '5', 'Off', 'MUHAMMAD NUR HASSAN', '0235036415', 'GT BANK', '0', '50', '5000');
 
 -- --------------------------------------------------------
 

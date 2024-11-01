@@ -23,13 +23,15 @@
     <!-- Page Nav Title Header -->
     <?php if($title <> "Print Data Pin"): ?>
         <div class="header header-fixed header-logo-center">
-            <a href="./" class="header-title">Easy Load</a>
+            <a href="./" class="header-title">Insight Hub</a>
             <?php if($title == "Homepage"){?>
                 <a href="#" class="font-17 header-icon header-icon-1"><i class="fas fa-home"></i></a>
             <?php } else{ ?>
                 <a href="#" data-back-button class="font-17 header-icon header-icon-1"><i class="fas fa-chevron-left"></i></a>
             <?php } ?>
-            <a href="notifications" class="font-17 header-icon header-icon-4"><i class="fas fa-envelope"></i><span class="badge bg-red-dark">1</span></a>
+            <a href="notifications" class="font-17 header-icon header-icon-4"><i class="fas fa-envelope"></i>
+            <!-- <span class="badge bg-red-dark">1</span> -->
+        </a>
             <a href="#" data-toggle-theme class="font-17 header-icon header-icon-3 show-on-theme-dark"><i class="fas fa-sun"></i></a>
             <a href="#" data-toggle-theme class="font-17 header-icon header-icon-3 show-on-theme-light"><i class="fas fa-moon"></i></a>
         </div>

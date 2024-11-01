@@ -1,18 +1,18 @@
-<header class="main-header" >	
+<header class="main-header" style="background: #2899ff !important;">	
 	  <div class="p-10 clearfix float-left">
-		<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+		<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" style="color:#fff">
 			<i class="ti-align-left"></i>
 		</a>
 		<!-- Logo -->
 		<a href="dashboard" class="logo">
 		  <!-- logo-->
 		  <span class="logo-lg">
-			  <img src="../../assets/img/9-removebg-preview.png?v=1" alt="logo" class="dark-logo" width="80">
+		<h3 style="color:#fff">Insight Hub</h3>
 		  </span>
 		</a>	  
 	  </div>
     <!-- Header Navbar -->
-    <nav class="navbar navbar-static-top" style="background-color:#555">
+    <nav class="navbar navbar-static-top" style="background-color:#004aad">
       <!-- Sidebar toggle button-->
       <div>
 		  <!--a id="toggle_res_search" data-toggle="collapse" data-target="#search_form" class="res-only-view" href="javascript:void(0);"><i class="mdi mdi-magnify"></i></a-->

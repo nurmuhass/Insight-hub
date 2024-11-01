@@ -14,13 +14,13 @@
     <link href="../assets/vendor_components/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="../assets/vendor_components/sweetalert/sweetalert.css" rel="stylesheet" />
     <style>
-        body{background:linear-gradient(#000099,#3333ff); background-image:url("../assets/img/bg.jpg");   background-position:center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;background-repeat:no-repeat;background-attachment:fixed}#loginContainerContent{margin-top:10vh;margin-bottom:10px;text-align:left;color:#000;font-weight:600;}.brand_logo_container{padding:10px}.brand_logo{height:150px;width:155px;border-radius:50%;border:2px solid #fff;text-align:center}.position{max-width:500px;height:auto;margin:auto;position:relative}.user_card{background:rgba(255,255,255,.9); padding:30px;  box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);-webkit-box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);-moz-box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);border-radius:30px; color:#000}h3{color:#000;text-align:left;font-weight:600}.loginbtn{border-radius:30px;}
+        body{background-color:#2899ff !important;}#loginContainerContent{margin-top:10vh;margin-bottom:10px;text-align:left;color:#000;font-weight:600;}.brand_logo_container{padding:10px}.brand_logo{height:150px;width:155px;border-radius:50%;border:2px solid #fff;text-align:center}.position{max-width:500px;height:auto;margin:auto;position:relative}.user_card{background:rgba(255,255,255,.9); padding:30px;  box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);-webkit-box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);-moz-box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);border-radius:30px; color:#000}h3{color:#000;text-align:left;font-weight:600}.loginbtn{border-radius:30px;}
     </style>
 </head>
 
 <body >
 
-<div class="container">
+<div class="container" >
 <div id="loginContainerContent">
             <div  class="position user_card">
             <div>

@@ -15,12 +15,11 @@
 <link rel="icon" type="image/png" href="../../assets/img/favicon.png" />
 <?php if(isset($_SESSION['loginId'])){echo "<script>window.location.href='../home/';</script>"; } ?>
 <style>
-    /* body{background-color: <?php echo $color; ?>;} */
-    body{background-color:"#f0f0f0";}
-    .card{background:#fff; margin:20px;border-radius: 1rem !important;}
+    body{background-color: <?php echo $color; ?>;}
+    .card{background: #56aeff; margin:20px;border-radius:0.5rem !important;}
     .form-control{
-        background-color: #fafafa rgba(0,0,0,0.5) !important; 
-        border-radius: 0.5rem !important;
+        background-color: #fafafa !important; 
+        border-radius: 1rem !important;
         padding:25px !important;
         padding-left: 50px !important;
     }
@@ -34,7 +33,7 @@
         padding-left: 20px !important;
     }
     .btn{
-        border-radius: 0.5rem !important;
+        border-radius: 5rem !important;
     }
 </style>
 </head>
@@ -49,26 +48,26 @@
     
     <div class="page-content mt-3">
         
-        <div style="display:flex; justify-content:center; align-content:center; ">
+        <div style="display:flex; justify-content:center; align-content:center;border-radius:0.5rem !important;">
         <div class="card card-style">
             <div class="content ">
 
                 <div class="text-center">
-                    <h2 class="mb-3 text-black mt-5" id="accountname">Welcome Back</h2>
-                    <h1 class="font-20 mb-3 text-black" id="accountname2">Login To <br/> <?php echo strtoupper($name); ?></h1>
+                    <h2 class="mb-3 text-white mt-5" id="accountname">Welcome Back</h2>
+                    <h1 class="font-25 mb-3 text-white" id="accountname2">Login To <br/> <?php echo strtoupper($name); ?></h1>
                 </div>
                 
                 <form id="login-form" method="post">
                 <div class="px-2">
                     <div class="input-style no-borders has-icon mb-4" id="phonediv">
                         <i class="fa fa-phone"></i>
-                        <input type="number" class="form-control border-2 border-white"  id="phone" name="phone" placeholder="Phone Number" required readonly />
+                        <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone Number" required readonly />
                         <label for="phone" class="color-highlight">Phone</label>
                         <em>(required)</em>
                     </div>
-                    <div class="input-style border-6 border-black has-icon mb-4">
+                    <div class="input-style no-borders has-icon mb-4">
                         <i class="fa fa-lock"></i>
-                        <input type="password" class="form-control " id="password" style="border-width: 2px; border-color: rgb(226 232 240);" name="password" placeholder="Password" required readonly />
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required readonly />
                         <label for="password" class="color-highlight">Password</label>
                         <em>(required)</em>
                     </div>
@@ -79,14 +78,12 @@
 
                     <div class="row pt-5 mb-3">
                         <div class="col-12 text-center font-15">
-                            <a class="text-black" href="../recovery/">Forget Password? Recover It</a> 
+                            <a class="text-white" href="../recovery/">Forget Password? Recover It</a> 
                         </div>
                         <div class="col-12 text-center font-15 mt-2">
-                            <a class="text-black" href="../register/">New User? Create Account</a>
+                            <a class="text-white" href="../register/">New User? Create Account</a>
                         </div>
-                        <!-- <div class="col-12 text-center font-15 mt-3">
-                            <a class="text-white"<b>Licensed By Nuru</b></a>
-                        </div> -->
+                    
                     </div>
 
                 </div>
@@ -165,7 +162,7 @@ $("document").ready(function(){
         $phone = atob(unescape(getCookie("loginPhone")));
         $name = atob(unescape(getCookie("loginName")));
         if($phone != null && $phone != ""){
-            let msg='<p class="mb-3"><a href="javascript:showNumber();"><b class="text-black">Login With Another Account?</b></a></p>';
+            let msg='<p class="mb-3"><a href="javascript:showNumber();"><b class="text-white">Login With Another Account?</b></a></p>';
             $("#accountname2").after(msg);
             $("#accountname").append(" "+$name+"!");
             $("#phonediv").hide();

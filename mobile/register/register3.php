@@ -18,14 +18,12 @@
     #ward option{color:#000000 !important;}
 </style>
 <style>
-    /* body{background-color: <?php echo $color; ?>;} */
-    body{background-color:"#f0f0f0";}
-    .card{background:#fff; margin:20px;border-radius: 1rem !important;}
-
-        
+    body{background-color: <?php echo $color; ?>;}
+    .card{background: #56aeff; margin:20px;border-radius:0.5rem !important;}
+    
     .form-control{
-        background-color: #f2f2f2 !important; 
-        border-radius: 0.5rem !important;
+        background-color: #fafafa !important; 
+        border-radius: 5rem !important;
         padding-left: 50px !important;
     }
 
@@ -37,7 +35,7 @@
         padding-left: 20px !important;
     }
     .btn{
-        border-radius: 0.5rem !important;
+        border-radius: 5rem !important;
     }
 </style>
 </head>
@@ -58,8 +56,8 @@
 
                 
                 <div class="text-center">
-                    <h1 class="font-30 mb-3 mt-3 text-black">Register</h1>
-                    <p class="mb-3 text-black">Enter your credentials below to create a free account</p>
+                    <h1 class="font-30 mb-3 mt-3 text-white">Register</h1>
+                    <p class="mb-3 text-white">Enter your credentials below to create a free account</p>
                 
                 </div>
                 
@@ -69,28 +67,28 @@
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-user"></i>
                         <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name" required />
-                        <label for="name" class="color-highlight" style="color:#555 !important;">First Name</label>
+                        <label for="name" class="color-highlight">First Name</label>
                         <em>(required)</em>
                     </div>
 
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-user"></i>
                         <input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name" required />
-                        <label for="name" class="color-highlight" style="color:#555 !important;">Last Name</label>
+                        <label for="name" class="color-highlight">Last Name</label>
                         <em>(required)</em>
                     </div>
 
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-phone"></i>
                         <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" required readonly />
-                        <label for="phone" class="color-highlight" style="color:#555 !important;">Phone Number</label>
+                        <label for="phone" class="color-highlight">Phone Number</label>
                         <em>(required)</em>
                     </div>
 
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-at"></i>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" readonly />
-                        <label for="email" class="color-highlight" style="color:#555 !important;">Email</label>
+                        <label for="email" class="color-highlight">Email</label>
                         <em>(required)</em>
                     </div>
 
@@ -103,10 +101,10 @@
                     </div>
 
                     <div id="nextregDiv" style="display:none;">
-                    <div class="input-style  no-borders has-icon mb-4 ">
+                    <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-map"></i>
-                        <select class="form-control " id="state" name="state" required>
-                        <option value="" selected disabled>State</option>
+                        <select class="form-control" id="state" name="state" required  >
+                              <option value="" selected disabled>State</option>
                               <option value="Abuja FCT" style="color:#000000 !important;">Abuja FCT</option>
                               <option value="Abia" style="color:#000000 !important;">Abia</option>
                               <option value="Adamawa" style="color:#000000 !important;">Adamawa</option>
@@ -145,36 +143,36 @@
                               <option value="Yobe" style="color:#000000 !important;">Yobe</option>
                               <option value="Zamfara" style="color:#000000 !important;">Zamfara</option>
                         </select>
-                        <label class="color-highlight"  style="color:#555 !important;">State</label>
+                        <label for="state" class="color-highlight">State</label>
                         <em>(required)</em>
                     </div>
                     
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-lock"></i>
                         <input type="password" class="form-control" id="password" name="password" placeholder="Password" required readonly/>
-                        <label for="password" class="color-highlight" style="color:#555 !important;">Password</label>
+                        <label for="password" class="color-highlight">Password</label>
                         <em>(required)</em>
                     </div>
 
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-lock"></i>
                         <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="Confirm Password" required readonly/>
-                        <label for="cpassword" class="color-highlight" style="color:#555 !important;">Confirm Password</label>
+                        <label for="cpassword" class="color-highlight">Confirm Password</label>
                         <em>(required)</em>
                     </div>
 
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-lock"></i>
                         <input type="number" class="form-control" id="transpin" name="transpin" placeholder="Pin" required />
-                        <label for="transpin" class="color-highlight" style="color:#555 !important;">Transaction Pin</label>
+                        <label for="transpin" class="color-highlight">Transaction Pin</label>
                         <em>(required)</em>
                     </div>
 
                     <div class="input-style  no-borders has-icon mb-4">
                         <i class="fa fa-user-plus"></i>
                         <input type="number" value="<?php if(isset($_GET["referral"])): echo $_GET["referral"]; endif; ?>" class="form-control" id="referal" name="referal" placeholder="Referal" />
-                        <label for="referal" class="color-highlight" style="color:#555 !important;">Referral</label>
-                        <!-- <em>(required)</em> -->
+                        <label for="referal" class="color-highlight">Referral</label>
+                        <em>(required)</em>
                     </div>
                     
                     <button type="submit" id="submit-btn" style="width: 100%;" class="btn btn-full btn-l font-600 font-15 gradient-highlight mt-4 rounded-s">
@@ -187,13 +185,11 @@
                     
                     <div class="row pt-3 mb-3">
                         <div class="col-12 text-center font-15 mt-2">
-                            <a class="text-black" href="../login/">Already Have An Account, <b>Login Now</b></a>
+                            <a class="text-white" href="../login/">Already Have An Account, <b>Login Now</b></a>
                         </div>
                     </div>
 
-                    <!-- <div class="col-12 text-center font-15 mt-3">
-                        <a class="text-black"<b>Licensed By Nuru</b></a>
-                    </div> -->
+               
 
                 </div>
                 </form>

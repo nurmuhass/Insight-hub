@@ -1,75 +1,38 @@
-<style>
-
-/* Add this CSS */
-.content-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-}
-
-/* For large screens */
-@media (min-width: 992px) {
-    .content-container {
-     
-        justify-content: flex-end;
-    }
-
-    .slider-container, .services-card {
-        width: 70%;
-    }
-
-    .slider-container {
-        margin-right: 2%;
-    }
-
-    .services-card {
-        width: 90%;
-    }
-}
-
-/* For small screens */
-@media (max-width: 991px) {
-    .slider-container, .services-card {
-        width: 100%;
-    }
-
-    .services-card {
-        margin-top: 20px;
-    }
-}
-
-
-</style>
-
 <div class="page-content header-clear">
 
-    <div class="card notch-clear rounded-0 mb-n5 mt-0" data-card-height="200" style="background-color:#555;">
-        <div class="card-body pt-4 mt-2 mb-n2">
-            <h1 class=" font-20 float-start color-white"><?php echo "Hi, ".$data->sFname; ?>!</h1>
-            <h3 class=" font-17 float-end color-white">(<?php echo $controller->formatUserType($data->sType); ?>)</h3>
-            <div class="clearfix"></div>
-        </div>
-
-        <div class="card card-style mt-0 mb-5" style="height: 50px;">
-            <div class="card-center">
-                <h3 class="float-start font-16 ps-3 pt-2">
+<div class="card notch-clear rounded-0 mb-n5 mt-0" data-card-height="200" style="background-color:<?php echo $sitecolor; ?>;">
+            <div class="card-body pt-4 mt-2 mb-n2">
+                <h1 class=" font-20 float-start color-white"><?php echo "Hi, ".$data->sFname; ?>!</h1>
+                <h3 class=" font-17 float-end color-white">(<?php echo $controller->formatUserType($data->sType); ?>)</h3>
+                <div class="clearfix"></div>
+            </div>
+            
+            <div class="card card-style mt-0 mb-5" style="height: 50px;">
+                
+               <div class="card-center ">
+               
+                    <h3 class="float-start font-16 ps-3 pt-2">
                     <span style="margin-right:10px;">Balance</span> 
                     <span id="hideEyeDiv" style="display:none;">&#8358;<?php echo number_format($data->sWallet); ?></span>
-                    <span id="openEyeDiv">&#8358; *********</span>
-
+                    <span id="openEyeDiv" >&#8358; *********</span>
+                
                     <span id="hideEye"><i class="fa fa-eye-slash" style="margin-left:20px;" aria-hidden="true"></i></span>
                     <span id="openEye" style="display:none; margin-left:20px;"><i class="fa fa-eye" aria-hidden="true"></i></span>
-                </h3>
-                <a href="fund-wallet" class="btn float-end" style="background-color:#555; border-radius:5rem; margin-right:7px"><b>Fund</b></a>
-            </div>
-        </div>
-    </div>
+                    
+                    </h3>
+                    <a href="fund-wallet" class="btn float-end" style="background-color:<?php echo $sitecolor; ?>; border-radius:5rem; margin-right:7px"><b>Fund</b></a>
+                
+               </div>
 
-    <div class="content-container">
-        <div class="slider-container">
-            <div class="mt-3 splide single-slider slider-no-arrows slider-no-dots splide--loop splide--ltr splide--draggable is-active mb-1" id="single-slider-1" style="visibility: visible;">
-                <div class="splide__track" id="single-slider-1-track">
+                
+
+            </div>
+
+        </div>
+
+        <div class="mt-3 splide single-slider slider-no-arrows slider-no-dots splide--loop splide--ltr splide--draggable is-active mb-1" id="single-slider-1" style="visibility: visible;">
+            <div class="splide__arrows"><button class="splide__arrow splide__arrow--prev" type="button" aria-controls="single-slider-1-track" aria-label="Go to last slide"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg></button><button class="splide__arrow splide__arrow--next" type="button" aria-controls="single-slider-1-track" aria-label="Next slide"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg></button></div>
+            <div class="splide__track" id="single-slider-1-track">
                     <div class="splide__list" id="single-slider-1-list" style="transform: translateX(-624px);">
                             
                             <div class="splide__slide splide__slide--clone" aria-hidden="true" tabindex="-1" style="width: 312px;">
@@ -90,8 +53,7 @@
                                 </div>
                             </div>
                             
-                            </div>
-                </div>
+                    </div>
             </div>
         </div>
         
@@ -129,7 +91,7 @@
 
         
         
-        <div class="card card-style services-card mt-n3">
+        <div class="card card-style mt-n3">
             <div class="content mb-3 mt-3">
                <div>
                 <h5>Services</h5>
