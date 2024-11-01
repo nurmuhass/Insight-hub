@@ -38,7 +38,8 @@
         <div class="box">
             <div class="box-header with-border d-flex justify-content-between">
               <h4 class="box-title">All Transactions</h4>
-              <a class="btn btn-info btn-sm" href="transactions?page=<?php echo $pageCount; if(isset($_GET["search"])): echo "&search=".$_GET["search"]; endif; echo "&searchfor=".$_GET["searchfor"]; ?>">Next 1000 Transaction</a>
+              <!-- <a class="btn btn-info btn-sm" href="transactions?page=<?php echo $pageCount; if(isset($_GET["search"])): echo "&search=".$_GET["search"]; endif; echo "&searchfor=".$_GET["searchfor"]; ?>">Next 1000 Transaction</a> -->
+              <!-- <a class="btn btn-info btn-sm" href="transactions?page=">Next 1000 Transaction</a> -->
 			</div>
             <!-- /.box-header -->
             <div class="box-body">
